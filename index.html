@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Jullya Nigro, desenvolvedora Back-End." />
+  <title>Jullya Nigro | Back-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="background-grid"></div>
+  <header class="header">
+    <a class="logo" href="#inicio">JN<span>.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#formacao">Formação</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Olá, eu sou</p>
+        <h1>Jullya <span>Nigro</span></h1>
+        <h2>Desenvolvedora <span>Back-End</span></h2>
+        <p class="hero-text">Transformo ideias em aplicações organizadas, seguras e escaláveis utilizando Java, Spring Boot, Python e tecnologias modernas.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projetos">Conheça meus projetos <span>↗</span></a>
+          <a class="btn secondary" href="#contato">Vamos conversar</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/Jullya-Nigro07" target="_blank">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/jullya-nigro-013a15331/" target="_blank">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>jullya.java</small></div>
+          <pre><code><b>public class</b> Jullya {
+
+  <b>String</b> foco = <i>"Back-End"</i>;
+  <b>String</b> linguagem = <i>"Java"</i>;
+  <b>boolean</b> curiosa = <b>true</b>;
+
+  <b>void</b> evoluir() {
+    aprender();
+    construir();
+    compartilhar();
+  }
+}</code></pre>
+        </div>
+        <div class="floating-badge">✦ Construindo soluções</div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section two-columns">
+      <div class="section-heading reveal"><p class="eyebrow">01 / Sobre mim</p><h2>Por trás de cada linha,<br><span>existe um propósito.</span></h2></div>
+      <div class="about-text reveal delay-1">
+        <p>Olá! Eu sou Jullya Nigro, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedora com foco em Back-End.</p>
+        <p>Tenho interesse principalmente pelo desenvolvimento de aplicações utilizando Java, Spring Boot e Python, além de conhecimentos em APIs REST, SQL, PostgreSQL, Docker, Git, JWT e AWS.</p>
+        <p>Ao longo da minha formação, venho desenvolvendo projetos que envolvem programação orientada a objetos, autenticação e autorização, microsserviços, bancos de dados e testes automatizados.</p>
+        <p>Sou curiosa, dedicada e gosto de aprender na prática, buscando entender o motivo por trás das decisões tomadas durante o desenvolvimento de um sistema.</p>
+        <p class="highlight">🚀 Meu objetivo é crescer como desenvolvedora Back-End e contribuir para a construção de sistemas robustos, seguros e escaláveis.</p>
+      </div>
+    </section>
+
+    <section class="section skills-section">
+      <div class="section-heading centered reveal"><p class="eyebrow">02 / Tecnologias</p><h2>Ferramentas que fazem parte<br><span>da minha jornada.</span></h2></div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span>☕</span><h3>Java & Spring</h3><p>Java, Spring Boot, Spring Security, JPA, JWT e APIs REST.</p></div>
+        <div class="skill-card reveal delay-1"><span>🐍</span><h3>Python</h3><p>Programação, automação, Flask e análise exploratória de dados.</p></div>
+        <div class="skill-card reveal delay-2"><span>☁</span><h3>Cloud & DevOps</h3><p>AWS, Docker, Linux, Git, GitHub e fundamentos de CI/CD.</p></div>
+        <div class="skill-card reveal delay-3"><span>🗄</span><h3>Dados</h3><p>SQL, PostgreSQL, MySQL, modelagem e fundamentos de bancos de dados.</p></div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">03 / Projetos</p><h2>Projetos que mostram<br><span>minha evolução.</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal"><div class="project-number">01</div><p class="project-type">Java · Spring Security · JUnit</p><h3>JWT Bank Security</h3><p>Aplicação bancária com autenticação e autorização utilizando JWT, Spring Security e banco de dados.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>Spring Web</span><span>Flyway</span><span>Spring Data JPA</span><span>Jwt</span><span>Junit</span><span>Mokito</span></div><a href="https://github.com/Jullya-Nigro07/JWTBankSecurity" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal delay-1"><div class="project-number">02</div><p class="project-type">Em andamento · Microsserviços · Mensageria</p><h3>AutoShield</h3><p>Sistema de uma seguradora de carros, com proposta de microsserviços e comunicação por mensageria.</p><div class="tags"><span>Java</span><span>Mensageria</span><span>Arquitetura</span></div><a href="https://github.com/Jullya-Nigro07/AutoShield" target="_blank">Acompanhar projeto ↗</a></article>
+        <article class="project-card reveal delay-2"><div class="project-number">03</div><p class="project-type">Java · CRUD</p><h3>Spring User Manager</h3><p>Sistema de gerenciamento de usuários desenvolvido com Spring Boot.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>API REST</span><span>Swagger</span><span>MVC</span></div><a href="https://github.com/Jullya-Nigro07/SpringUserManager" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal"><div class="project-number">04</div><p class="project-type">Java · Orientação a objetos</p><h3>Screenmatch</h3><p>Projeto de aplicação para consulta e organização de informações sobre filmes e séries.</p><div class="tags"><span>Java</span><span>OOP</span></div><a href="https://github.com/Jullya-Nigro07/Screenmatch" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal delay-1"><div class="project-number">05</div><p class="project-type">Python · Gestão</p><h3>Inventory Management</h3><p>Sistema de gerenciamento de estoque desenvolvido para praticar organização de código e regras de negócio.</p><div class="tags"><span>Python</span><span>Flask</span><span>Twillo</span><span>Hexagonal</span></div><a href="https://github.com/Jullya-Nigro07/Inventory_Managment" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal delay-2"><div class="project-number">06</div><p class="project-type">Python · Microsserviços</p><h3>AP2 Microsserviços</h3><p>Projeto acadêmico explorando a divisão de aplicações em serviços independentes.</p><div class="tags"><span>Python</span><span>Flask</span><span>APIs</span><span>Docker-Compose</span></div><a href="https://github.com/Jullya-Nigro07/AP2.microservicos" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal"><div class="project-number">07</div><p class="project-type">Python · Dados</p><h3>Análise Exploratória de Dados</h3><p>Projeto de análise, visualização e interpretação de dados utilizando Python.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>CSV</span></div><a href="https://github.com/Jullya-Nigro07/Analise-Exploratoria-De-Dados" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal delay-1"><div class="project-number">08</div><p class="project-type">DevOps</p><h3>Lab DevOps</h3><p>Laboratório prático para explorar ferramentas e conceitos de DevOps.</p><div class="tags"><span>Python</span><span>Docker</span><span>Linux</span><span>DevOps</span><span>Pipelines</span></div><a href="https://github.com/Jullya-Nigro07/Lab-Devops" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal delay-2"><div class="project-number">09</div><p class="project-type">Web</p><h3>BlueBird Web</h3><p>Projeto web desenvolvido para praticar estruturação de páginas e experiência do usuário.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://github.com/Jullya-Nigro07/blueBird.web" target="_blank">Ver repositório ↗</a></article>
+        <article class="project-card reveal"><div class="project-number">10</div><p class="project-type">Python · Automação</p><h3>Meu Robô</h3><p>Projeto voltado à prática de automação robótica e lógica de programação.</p><div class="tags"><span>Python</span><span>Automação</span></div><a href="https://github.com/Jullya-Nigro07/Meu_Robo" target="_blank">Ver repositório ↗</a></article>
+      </div>
+    </section>
+
+    <section id="formacao" class="section two-columns formation">
+      <div class="formation-intro reveal">
+        <p class="eyebrow">04 / Formação</p>
+        <h2>Minha formação e visão para o futuro</h2>
+
+        <div class="formation-card">
+          <p class="formation-label">Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+          <p class="formation-school">Faculdade Impacta Tecnologia</p>
+        </div><br>
+
+        <div class="formation-goal">
+          <h3>Onde quero chegar</h3>
+
+          <p>
+            Quero me desenvolver como Desenvolvedora Back-End, trabalhando na construção de APIs e sistemas robustos,
+            seguros e escaláveis.
+          </p>
+          <p>
+            Tenho especial interesse pelo ecossistema Java + Spring Boot, arquitetura de microsserviços e comunicação entre
+            serviços.
+          </p>
+          <p>
+            Atualmente, estou explorando tecnologias como Kafka, AWS e testes automatizados, buscando evoluir da
+            implementação de funcionalidades para uma visão mais completa de arquitetura e engenharia de software.
+          </p>
+          <img class="formation-image" src="128b3b1b-ded1-4138-aba8-8c7990a99fb0.jpg" alt="Jullya" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="timeline reveal delay-1">
+        <div class="timeline-item">
+          <b>2026 — Atualmente</b>
+          <h3>5º semestre · ADS</h3>
+          <p> - Software Product: Project & Implementation</p>
+          <p> - Análise Exploratória de Dados</p>
+          <p> - Business Agility</p>
+          <p> - Cibersegurança</p>
+          <p> - Automação de Testes</p>
+        </div>
+
+        <div class="timeline-item">
+          <b>4º semestre</b>
+          <h3>Qualidade e modelagem</h3>
+          <p> - UX Design Thinking</p>
+          <p> - Quality Assurance</p>
+          <p> - Desenvolvimento Full Stack</p>
+          <p> - Product Analysis & Specification</p>
+          <p> - Análise e Modelagem de Sistemas</p>
+        </div>
+
+        <div class="timeline-item">
+          <b>3º semestre</b>
+          <h3>APIs, DevOps e mobile</h3>
+          <p> - Engenharia de Requisitos</p>
+          <p> - Desenvolvimento Mobile</p>
+          <p> - Desenvolvimento APIs REST</p>
+          <p> - DevOps</p>
+          <p> - Automação Robótica</p>
+        </div>
+
+        <div class="timeline-item">
+          <b>2º semestres</b>
+          <h3>Fundamentos da tecnologia</h3>
+          <p> - Linguagem SQL</p>
+          <p> - Engenharia de Software</p>
+          <p> - Ambientes Operacionais(AWS)</p>
+          <p> - Desenvolvimento Web</p>
+          <p> - Linguagem Orientada a Objetos</p>
+        </div>
+
+        <div class="timeline-item">
+          <b>1º semestres</b>
+          <h3>Base de Programação</h3>
+          <p> - Linguagem de Programação Python</p>
+          <p> - Lógica de Programação</p>
+          <p> - Fundamentos de Banco de Dados</p>
+          <p> - Matemática Aplicada</p>
+          <p> - Soft Skills</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section courses-section"><div class="section-heading centered reveal"><p class="eyebrow">05 / Cursos</p><h2>Conhecimento que continua<br><span>se expandindo.</span></h2></div><div class="course-list reveal"><span>Algoritmos</span><span>Git e GitHub</span><span>Docker e Linux</span><span>Backend com Java & AWS · 72h</span><span>Microsserviços e Mensageria com Kafka</span><span>Bootcamp Porto · Programa de Formação da TI</span><span>Bootcamp Itaú · Java com Inteligência Artificial</span></div></section>
+
+    <section id="contato" class="contact section reveal"><p class="eyebrow">06 / Contato</p><h2>Vamos construir algo<br><span>incrível juntos?</span></h2><p>Estou aberta a oportunidades, projetos e conexões na área de tecnologia.</p><a class="btn primary" href="mailto:nigrojullya07@gmail.com">Entrar em contato ↗</a><div class="contact-links"><a href="mailto:nigrojullya07@gmail.com">✉ nigrojullya07@gmail.com</a><a href="https://wa.me/5511939005135" target="_blank">◉ WhatsApp</a><a href="https://www.linkedin.com/in/jullya-nigro-013a15331/" target="_blank">in LinkedIn</a><a href="https://github.com/Jullya-Nigro07" target="_blank">⌘ GitHub</a></div></section>
+  </main>
+  <footer><p>© 2026 Jullya Nigro. Desenvolvido com HTML, CSS e JavaScript.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
