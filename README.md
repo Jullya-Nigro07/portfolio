@@ -4,5 +4,5 @@ Portfólio pessoal desenvolvido com **HTML, CSS e JavaScript**, apresentando min
 
 🎯 Foco: **Back-End | Java | Spring Boot | Python | APIs REST**
 
-🔗 [LinkedIn](https://www.linkedin.com/in/jullya-nigro-013a15331/)
-🔗 [GitHub](https://github.com/Jullya-Nigro07)
+🔗 [LinkedIn](https://www.linkedin.com/in/jullya-nigro/)
+🔗 [Aplicação](https://jullya-nigro07.github.io/portfolio/)
